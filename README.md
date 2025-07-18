@@ -1,3 +1,9 @@
+<img width="1854" height="946" alt="image" src="https://github.com/user-attachments/assets/058bf23f-f89f-43b6-bb67-e8941eb00f17" />
+<img width="1854" height="946" alt="image" src="https://github.com/user-attachments/assets/3baf1da7-5e68-4548-9215-b39100c7597c" />
+<img width="1854" height="946" alt="image" src="https://github.com/user-attachments/assets/8806266c-7379-4595-8779-2afc93e07d3f" />
+
+
+
 
 # AI Interviewer Backend
 
@@ -88,3 +94,4 @@ Create a `.env` file in the root directory with the following format:
 - OPENAI_API_KEY= 'your OpenAI API key'
 - MONGODB_URI="your-mongo-DB-URI"
 - JWT_SECRET="Your JWT Secret Key"
+  
