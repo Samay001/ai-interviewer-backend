@@ -1,0 +1,53 @@
+### Create a new interview schedule
+POST http://localhost:8080/interview-schedule
+Content-Type: application/json
+
+{
+  "adminFullName": "John Doe",
+  "adminEmail": "john.doe@example.com",
+  "applicantFullName": "Jane Smith",
+  "applicantEmail": "jane.smith@example.com",
+  "date": "2024-01-15",
+  "time": "14:30",
+  "domain": "Software Engineering",
+  "specificQuestions": [
+    "What is your experience with Node.js?",
+    "How do you handle async operations?",
+    "Explain the difference between let, const, and var"
+  ]
+}
+
+### Create interview schedule without specific questions (optional field)
+POST http://localhost:8080/interview-schedule
+Content-Type: application/json
+
+{
+  "adminFullName": "Sarah Johnson",
+  "adminEmail": "sarah.johnson@example.com",
+  "applicantFullName": "Mike Wilson",
+  "applicantEmail": "mike.wilson@example.com",
+  "date": "2024-01-20",
+  "time": "10:00",
+  "domain": "Data Science"
+}
+
+### Get all interview schedules
+GET http://localhost:8080/interview-schedule
+
+### Get interview schedules by admin email
+GET http://localhost:8080/interview-schedule/admin/john.doe@example.com
+
+### Get interview schedules by applicant email
+GET http://localhost:8080/interview-schedule/applicant/jane.smith@example.com
+
+### Get specific interview schedule by ID (replace {id} with actual ID)
+GET http://localhost:8080/interview-schedule/{id}
+
+### Update interview status
+POST http://localhost:8080/interview-schedule/{id}/status?status=confirmed
+
+### Mark interview as completed
+POST http://localhost:8080/interview-schedule/{id}/complete
+
+### Delete interview schedule
+DELETE http://localhost:8080/interview-schedule/{id} 

@@ -1,0 +1,42 @@
+### Update both score and status
+PATCH http://localhost:3000/interview-schedule/{{interviewId}}/score-status
+Content-Type: application/json
+
+{
+  "score": 4,
+  "interviewStatus": "completed"
+}
+
+### Update only score
+PATCH http://localhost:3000/interview-schedule/{{interviewId}}/score-status
+Content-Type: application/json
+
+{
+  "score": 3
+}
+
+### Update only status
+PATCH http://localhost:3000/interview-schedule/{{interviewId}}/score-status
+Content-Type: application/json
+
+{
+  "interviewStatus": "completed"
+}
+
+### Update with invalid score (will return 400)
+PATCH http://localhost:3000/interview-schedule/{{interviewId}}/score-status
+Content-Type: application/json
+
+{
+  "score": 6,
+  "interviewStatus": "completed"
+}
+
+### Update with invalid status (will return 400)
+PATCH http://localhost:3000/interview-schedule/{{interviewId}}/score-status
+Content-Type: application/json
+
+{
+  "score": 4,
+  "interviewStatus": "invalid_status"
+} 

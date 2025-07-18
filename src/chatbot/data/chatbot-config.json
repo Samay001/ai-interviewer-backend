@@ -1,0 +1,129 @@
+{
+  "welcome_message": "Welcome to EDMO's AI Interviewer! I'm here to conduct your interview and assess your fit for our programs. Are you ready to begin?",
+  "chatbot_context": {
+    "organization": "EDMO",
+    "founders": ["Aashish Fernando", "Vaibhav Gupta"],
+    "purpose": "Provides CRM solutions for educational institutions to convert leads into enrollments",
+    "website": "https://goedmo.com/",
+    "application_name": "EDMO AI Interviewer",
+    "key_features": [
+      "Automated question generation based on candidate profile",
+      "Transcript and qualification analysis",
+      "Real-time evaluation of responses",
+      "Personalized feedback",
+      "Progress tracking",
+      "Natural conversation flow",
+      "Integration with EDMO's CRM system"
+    ],
+    "user_roles": {
+      "hr": {
+        "dashboard_access": "HR personnel have access to a dedicated dashboard to manage applicants, schedule interviews, and review interview results.",
+        "functionalities": [
+          "Schedule interviews (manual or AI scheduling)",
+          "View applicant profiles and statuses",
+          "Access interview scores and reasons",
+          "Manage interview settings"
+        ]
+      },
+      "applicant": {
+        "dashboard_access": "Applicants have access to their personal dashboard to view scheduled interviews, track their application progress, and review feedback.",
+        "functionalities": [
+          "Start scheduled interviews",
+          "View interview status",
+          "Access interview feedback (if applicable)",
+          "Update profile information"
+        ]
+      }
+    },
+    "interview_scheduling": {
+      "overview": "HR can schedule interviews for applicants using two primary methods.",
+      "methods": [
+        {
+          "name": "Manual Scheduling",
+          "description": "HR manually sets the date, time, and specific interviewer (if human) or triggers an immediate AI interview for the applicant."
+        },
+        {
+          "name": "AI Scheduling",
+          "description": "The AI system automatically finds optimal interview slots based on applicant availability and HR preferences, then schedules the AI interview."
+        }
+      ]
+    },
+    "interview_process": {
+      "stages": [
+        "Introductory questions",
+        "Educational background assessment",
+        "Skill evaluation",
+        "Motivation and goals analysis",
+        "Program-specific questions",
+        "Closing and next steps"
+      ],
+      "evaluation_criteria": [
+        "Academic qualifications",
+        "Communication skills",
+        "Technical proficiency",
+        "Learning attitude",
+        "Cultural fit",
+        "Career aspirations"
+      ]
+    },
+    "technical_details": {
+      "response_handling": "Analyzes responses for content, clarity, and relevance",
+      "adaptability": "Adjusts question difficulty based on candidate performance",
+      "scoring_system": "Quantitative and qualitative assessment metrics",
+      "interview_score_generation": {
+        "process": "As soon as the interview concludes, an automated interview score is generated.",
+        "format": "Score out of 5 (e.g., 4.2/5)",
+        "reasoning": "A detailed reason or justification is provided for the generated score, highlighting strengths and areas for improvement."
+      },
+      "fallback_mechanism": "Escalates to human interviewer when needed"
+    },
+    "user_guidelines": [
+      "Answer questions clearly and completely",
+      "Be honest about your qualifications",
+      "Ask for clarification if needed",
+      "Technical requirements: Stable internet connection, microphone",
+      "Average interview duration: 20-30 minutes"
+    ],
+    "boundaries": {
+      "can_do": [
+        "Conduct structured interviews",
+        "Provide basic program information",
+        "Evaluate candidate responses",
+        "Offer general feedback",
+        "Guide through next steps"
+      ],
+      "cannot_do": [
+        "Make final admission decisions",
+        "Provide detailed counseling",
+        "Discuss financial matters",
+        "Modify program requirements",
+        "Share other candidates' information"
+      ]
+    },
+    "Contact Us":{
+      "address" : "33 Boston Post Road, W Suite 600, Marlborough MA, USA - 01752",
+      "Mobile Number" : "+1 (781) 775-1363",
+      "Email" : "info@goedmo.com"
+    },
+    "Socials":{
+      "Spotify" : "https://open.spotify.com/show/6e6pRwzSANG7bI77U8oFdz",
+      "LinkedIn": "https://www.linkedin.com/company/edmo-ai/",
+      "Twitter" : "https://x.com/edmo_tech",
+      "Youtube" : "https://www.youtube.com/ashishfernando"
+    },
+    "Our Products" :{
+      "IschoolConnect":"https://ischoolconnect.com",
+      "IschoolPrep" : "https://ischoolprep.com"
+    },
+    "FAQ":{
+      "What is EDMO, and how does it benefit higher education institutions?":"EDMO is an AI-driven technology company designed specifically for higher education institutions to streamline and fasten their enrollment processes. It automates tedious tasks like transcript evaluation, document verification, and grading scale conversion, helping institutions manage thousands of applications efficiently by reducing manual labour and enabling faster decisions.EDMO improves operational efficiency, saves costs, and ensures that applicants receive timely, personalised responses. It ultimately allows admissions teams to focus more on strategy and engagement rather than administrative overload, thereby improving student experience and boosting enrollment outcomes.",
+      "How does EDMO's AI technology enhance the admissions process?": "EDMO uses advanced AI to analyse, evaluate, and process student applications and documents quickly and accurately.It can interpret academic transcripts from different countries, convert grading scales into local equivalents, extract data, and even identify top prospects based on performance.By automating these traditionally manual tasks, EDMO reduces human error, accelerates decision-making, and ensures that the admissions team spends more time on student engagement and less on paperwork.This intelligent automation leads to a more streamlined, data-driven, and efficient admissions experience for both institutions and applicants.",
+      " Can EDMO integrate with existing CRM systems like Salesforce?": "Yes, EDMO is built to integrate smoothly with existing CRM systems such as Salesforce.    This allows institutions to unify their student engagement, admissions, and recruitment strategies in one cohesive system. By working within a CRM like Salesforce, EDMO enhances existing functionalities by automating document processing, syncing applicant data, and enabling real-time updates.This seamless integration ensures that institutions don’t need to overhaul their tech stack but can instead enhance it with AI-driven tools that improve speed, accuracy, and engagement throughout the student lifecycle.",
+      " What measurable outcomes have institutions achieved using EDMO?" :"Institutions using EDMO have reported significant operational improvements.Over 100,000 applications have been processed through the platform, leading to more than $10 million in collective cost savings.EDMO’s AI tools have drastically reduced the time spent on manual processing and improved the accuracy of application reviews.Premier universities such as NYU, CUNY, and WGU have adopted EDMO and have experienced better student engagement, faster admissions timelines, and increased enrollment rates as a result.These measurable outcomes showcase how transformative AI can be in higher education admissions.",
+      "How can I schedule a demo or learn more about implementing EDMO?":"To schedule a demo or get more information about EDMO, go to the Contact Us page.There you’ll find a demo request form you can fill out with your institutional details.A team representative will then reach out to discuss your needs, show a live walkthrough of the platform, and explain how EDMO can be tailored to your current systems and goals.They also offer personalised consultations to understand how AI can solve your specific enrollment and admissions challenges more efficiently.",
+      " Can AI be used for school CRM?" : "Absolutely. AI can greatly bolster school CRMs by automating repetitive tasks, analysing student data, and delivering personalised communications.For instance, EDMO integrates AI to read and interpret documents, assess candidate potential, and initiate tailored follow-ups based on applicant profiles.This not only boosts efficiency but also improves engagement and retention.AI also helps uncover trends and predict student behaviours, allowing schools to make informed decisions and interventions.In short, AI-driven CRMs like EDMO transform traditional manual processes into intelligent workflows that improve both staff productivity and student experience.",
+      "What makes EDMO different from CRMs and messaging tools?" : "Unlike traditional CRMs or standalone messaging platforms, EDMO combines AI-powered document analysis, automated communication, and real-time decision support into one cohesive system.While CRMs manage contacts and campaigns, EDMO goes deeper—analysing transcripts, converting grading systems, and identifying high-potential applicants without manual effort.It doesn’t just store data—it actively processes and interprets it, offering predictive insights. EDMO enhances existing tools with automation and intelligence, making it more than just a messaging or data tool—it’s a strategic partner for boosting enrollment and operational efficiency.",
+      "Which higher education departments does EDMO support?" : "EDMO provides AI-driven solutions that support multiple departments within higher education institutions:Admissions and Enrollment: By automating document processing and personalising communication, EDMO streamlines the admissions workflow, enhancing efficiency and reducing manual workload.Student Support Services: EDMO’s AI chatbots offer real-time assistance, improving response times and reducing the burden on support staff.International Student Services: By facilitating global recruitment efforts and managing international inquiries, EDMO assists institutions in expanding their international student base.These solutions collectively enhance operational efficiency and student engagement across various institutional departments."
+    }
+  }
+}
