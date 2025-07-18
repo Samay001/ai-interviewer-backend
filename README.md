@@ -83,10 +83,6 @@ npm run test:cov
 - `/speech` - Speech endpoints
 - `/users` - User management
 
-## Deployment
-
-See [NestJS deployment docs](https://docs.nestjs.com/deployment) for best practices.
-
 ## .env Structure
 Create a `.env` file in the root directory with the following format:
 
